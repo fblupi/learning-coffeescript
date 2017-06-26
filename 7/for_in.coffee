@@ -14,3 +14,6 @@ for i in [0...actors.length]
   console.log actors[i]
   if actors[i] is 'Emma Stone'
     console.log "\tIs a woman"
+
+for actor in actors by 2
+  console.log actor
