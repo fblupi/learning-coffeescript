@@ -17,3 +17,6 @@ for i in [0...actors.length]
 
 for actor in actors by 2
   console.log actor
+
+upperCaseActors = (actor.toUpperCase() for actor in actors)
+console.log upperCaseActors
